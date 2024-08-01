@@ -1,4 +1,6 @@
 # GEN1423-Projet (Gestion de configuration)
 
-Été 2024
+Cours: GEN1423
+Session: Été 2024
+Équipe: Nick-Jayson Bizimana et Onana Onana Xavier Manuel
 
