@@ -1,0 +1,48 @@
+#   ---------------------------------------------------------------------------
+#   CRADLE CONNECTION CONFIGURATION FILE
+#   Confidential and Proprietary.
+#   Copyright (c) 2022 Structured Software Systems Limited.
+#   ---------------------------------------------------------------------------
+#
+#   This file defines the method by which the Cradle Database Server (CDS) will
+#   connect to this project database (PDB). This file is generated when the PDB
+#   is created. Usually it is not necessary to change this file manually.
+#
+#   The file contains lines of the form:
+#
+#   attribute = value
+#
+#   where whitespace (space and tab) are ignored. The attributes are:
+#
+#   CRADLE_VERSION   = The version of Cradle the file is compatible with
+#   TYPE             = One of:
+#                      PDB_CONN_ODBC  - The database is an ODBC source
+#                      PDB_CONN_DISAM - The database is a set of DISAM files,
+#                                       the default
+#   SOURCE           = If the database is an ODBC source, this is the name of
+#                      that source
+#   USER             = If the database is an ODBC source, this is the username
+#                      to be used to connect to that source. If blank, use the
+#                      DEFAULT_USER from the file: odbc_config
+#   PASSWORD         = If the database is an ODBC source, this is the password
+#                      to be used to connect to that source. If blank, use the
+#                      DEFAULT_PASSWORD from the file: odbc_config
+#   DB_SCHEMA_USE    = For enterprise databases where the tables are all owned
+#                      by one USER, but grouped by schema, this is the 'SCHEMA
+#                      NAME', or DEFAULT, or NONE. If blank, use the
+#                      DEFAULT_SCHEMA_USE from the file: odbc_config
+#
+#   Some characters are significant in the structure entries:
+#
+#   =   : The character 'equals' separates an attribute name and value
+#   '   : Text values, especially those with spaces, should be enclosed in ' '
+#   ---------------------------------------------------------------------------
+#
+#   Comments start with #. Anything from a # to the end of a line is ignored.
+#
+#   ---------------------------------------------------------------------------
+#   By default, the file has access permissions set that deny write access to
+#   unprivileged users so that the file can only be changed by administrators.
+#   ---------------------------------------------------------------------------
+CRADLE_VERSION = 7.7
+TYPE = PDB_CONN_DISAM

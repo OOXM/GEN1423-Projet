@@ -1,0 +1,39 @@
+METRIC_VERSION = 7.5
+
+NUM_ELEM = 4
+OP = COUNT
+    QUERY = 'Requirements - All'
+    QUERY_LOC = PROJECT
+    VALUES_START
+        VALUE = 1
+        VALUE = 2
+        VALUE = 3
+        VALUE = 4
+    VALUES_END
+OP = COVERAGE
+    QUERY = 'Requirements - All'
+    QUERY_LOC = PROJECT
+    VALUES_START
+        VALUE = 1
+        VALUE = 2
+        VALUE = 3
+        VALUE = 4
+    VALUES_END
+OP = COUNT
+    QUERY = 'System Req - All'
+    QUERY_LOC = PROJECT
+    VALUES_START
+        VALUE = 1
+        VALUE = 2
+        VALUE = 3
+        VALUE = 4
+    VALUES_END
+OP = COVERAGE
+    QUERY = 'System Req - All'
+    QUERY_LOC = PROJECT
+    VALUES_START
+        VALUE = 1
+        VALUE = 2
+        VALUE = 3
+        VALUE = 4
+    VALUES_END
