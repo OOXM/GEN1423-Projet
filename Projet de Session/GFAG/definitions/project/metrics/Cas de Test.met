@@ -1,0 +1,13 @@
+METRIC_VERSION = 7.7.0.1
+
+NUM_ELEM = 1
+OP = COUNT
+    QUERY = 'TEST CASE - All'
+    QUERY_LOC = AUTOMATIC
+    VALUES_START
+        VALUE = 1
+        VALUE = 2
+        VALUE = 3
+        VALUE = 4
+    VALUES_END
+    METRIC_EXCLUDE_EMPTY = FALSE
